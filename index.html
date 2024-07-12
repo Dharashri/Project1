@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upload Image to S3</title>
-    <h1>Hello World from $(hostname -f)</h1>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
         form { max-width: 400px; margin: 0 auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px; }
@@ -14,6 +13,7 @@
     </style>
 </head>
 <body>
+    <h1>Hello World from $(hostname -f)</h1>
     <h2>Upload Image to S3</h2>
     <form id="imageForm" action="upload.php" method="post" enctype="multipart/form-data">
         <label for="image">Select an image:</label>
